@@ -1,0 +1,55 @@
+
+body{
+  background: rgb(22, 163, 163);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form {
+  max-width: 800px;
+  margin: auto;
+  background: rgb(236, 228, 228);
+  border: 1px solid rebeccapurple;
+  box-shadow: 0 0 15px rgb(29, 27, 27);
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.form-group input {
+  width: 400px;
+  padding: 10px;
+  display: block;
+  background: rgb(198, 223, 230);
+  font-size: 20px;
+  border: 5px solid rgb(194, 168, 219);
+  margin-top: 20px;
+  width: 96%;
+}
+
+.form-group input:hover {
+  background: rgb(163, 206, 206);
+  color: rgb(77, 75, 75);
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  display: block;
+  background: rgb(217, 174, 235);
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background: rgb(78, 115, 133);
+  color: rgb(228, 234, 240);
+}
+
+.form-group p {
+  color: red;
+  font-size: 20px;
+}
